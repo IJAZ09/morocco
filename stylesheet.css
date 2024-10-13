@@ -1,0 +1,41 @@
+body{
+    background-color: green;
+    margin: 100px;
+}
+
+.morroco{
+    width: 500px;
+    height: 250px;
+    background-color: red;
+    border: 2px solid black;
+    margin: 50px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+   
+.star{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid white;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+ 
+    
+}
+.star::after{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid white;
+    position: absolute;
+    content: "";
+    top: 30px;
+    left: -50px;
+
+}
